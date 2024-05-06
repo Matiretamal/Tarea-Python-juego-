@@ -16,13 +16,13 @@ if decision == 1:
         print("   :::  Me quiere poquito    (.-.)   :::::::: \n "), time.sleep(1);
         print("   :::  No me quiere nada    (._.)   :::::::: \n "), time.sleep(1);
 
-if decision == 2:
+elif decision == 2:
     print("   :::  Me quiere mucho      (^-^)   :::::::: \n "), time.sleep(1);
     for i in range (repetir):
         print("   :::  Me quiere poquito    (.-.)   :::::::: \n "), time.sleep(1);
         print("   :::  No me quiere nada    (._.)   :::::::: \n "),  time.sleep(1);
         print("   :::  Me quiere mucho      (^-^)   :::::::: \n "), time.sleep(1);
-if decision == 3:
+else :
     print("   :::  Me quiere mucho      (^-^)   :::::::: \n "), time.sleep(1); #time.sleep para dar un segundo de espera
     print("   :::  Me quiere poquito    (.-.)   :::::::: \n "), time.sleep(1);
     for i in range (repetir):
@@ -33,8 +33,8 @@ if decision == 3:
 #entrega de mensaje 
 if decision == 1:
         print("   ::::::::::::::::::::::::::::::::::::::::::\n             TE QUIERE MUCH0      (*-*) \n   ::::::::::::::::::::::::::::::::::::::::::\n");
-if decision == 2:
+elif decision == 2:
         print("   ::::::::::::::::::::::::::::::::::::::::::\n             TE QUIERE POQUITO    (u.u) \n   ::::::::::::::::::::::::::::::::::::::::::\n");
-if decision == 3:
+else :
         print("   ::::::::::::::::::::::::::::::::::::::::::\n          LO SIENTO MUCHO     (u.u) \n"),time.sleep(1);
         print("             NO TE QUIERE       (x.x)\n   ::::::::::::::::::::::::::::::::::::::::::\n");
